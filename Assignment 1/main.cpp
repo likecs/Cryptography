@@ -148,8 +148,6 @@ int main(int argc, char const *argv[]) {
 	//0-based indexing
 	plain_text_index -= 1;
 
-	cout << plain_text_index << "\n";
-
 	ofstream output_file;
 	output_file.open(argv[2], ios::out);
 
